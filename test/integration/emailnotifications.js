@@ -57,7 +57,7 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  btc: {
+                  acm: {
                     livenet: 'https://insight.bitpay.com/tx/{{txid}}',
                     testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
                   },
@@ -374,7 +374,7 @@ describe('Email notifications', function() {
       server.savePreferences({
         email: 'copayer1@domain.com',
         language: 'es',
-        unit: 'btc',
+        unit: 'acm',
       }, function(err) {
         server.createAddress({}, function(err, address) {
           should.not.exist(err);
@@ -478,7 +478,7 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  btc: {
+                  acm: {
                     livenet: 'https://insight.bitpay.com/tx/{{txid}}',
                     testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
                   },

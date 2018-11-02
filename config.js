@@ -38,7 +38,7 @@ var config = {
     },
   },
   blockchainExplorerOpts: {
-    btc: {
+    acm: {
       livenet: {
         provider: 'insight',
         url: 'https://insight.bitpay.com:443',
@@ -68,7 +68,7 @@ var config = {
   pushNotificationsOpts: {
     templatePath: './lib/templates',
     defaultLanguage: 'en',
-    defaultUnit: 'btc',
+    defaultUnit: 'acm',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
     authorizationKey: 'You_have_to_put_something_here',
@@ -86,9 +86,9 @@ var config = {
   //  from: 'wallet-service@bitcore.io',
   //  templatePath: './lib/templates',
   //  defaultLanguage: 'en',
-  //  defaultUnit: 'btc',
+  //  defaultUnit: 'acm',
   //  publicTxUrlTemplate: {
-  //    btc: {
+  //    acm: {
   //      livenet: 'https://insight.bitpay.com/tx/{{txid}}',
   //      testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
   //    },
