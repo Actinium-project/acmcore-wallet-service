@@ -10,7 +10,7 @@ var log = require('npmlog');
 log.debug = log.verbose;
 log.level = 'info';
 
-var Bitcore = require('bitcore-lib');
+var Bitcore = require('acmcore-lib');
 var Bitcore_ = {
   acm: Bitcore,
   bch: require('bitcore-lib-cash')
