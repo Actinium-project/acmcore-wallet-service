@@ -24,7 +24,7 @@ describe('TxProposal', function() {
       should.exist(txp);
       txp.amount.should.equal(aTXP().amount);
     });
-    it('should default to BTC coin', function() {
+    it('should default to ACM coin', function() {
       var txp = TxProposal.fromObj(aTXP());
       should.exist(txp);
       txp.coin.should.equal('acm');

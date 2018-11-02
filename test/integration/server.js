@@ -8545,7 +8545,7 @@ describe('Wallet service', function() {
     });
   });
 
-  describe('BTC & BCH wallets with same seed', function() {
+  describe('ACM & BCH wallets with same seed', function() {
     var server = {},
       wallet = {};
     beforeEach(function(done) {
