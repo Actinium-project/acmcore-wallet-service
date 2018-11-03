@@ -41,11 +41,11 @@ var config = {
     acm: {
       livenet: {
         provider: 'insight',
-        url: 'https://explorer.actinium.org',
+        url: 'https://bws.actinium.org/explorer',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://test-explorer.actinium.org',
+        url: 'https://test-bws.actinium.org/explorer',
         // Multiple servers (in priority order)
         // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
       },
